@@ -31,5 +31,5 @@ step6:  aws lambda invoke --function-name my-function5 --cli-binary-format raw-i
 and Done
 
 
-Reference : https://docs.aws.amazon.com/lambda/latest/dg/golang-package.html
+Reference : https://docs.aws.amazon.com/lambda/latest/dg/golang-package.html  AND
             https://github.com/aws/aws-lambda-go
