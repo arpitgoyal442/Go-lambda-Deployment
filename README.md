@@ -29,3 +29,7 @@ step5:  aws lambda create-function --function-name my-function5 --runtime go1.x 
 step6:  aws lambda invoke --function-name my-function5 --cli-binary-format raw-in-base64-out  --payload file://my-input.json output.json
 
 and Done
+
+
+Reference : https://docs.aws.amazon.com/lambda/latest/dg/golang-package.html
+            https://github.com/aws/aws-lambda-go
